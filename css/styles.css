@@ -1,0 +1,180 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* section title */
+
+#title {
+  background-color: #ff4c69;
+  color: #fff;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.big-header {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.img-iphone {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 26%;
+}
+
+.navbar-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* section features */
+
+#features {
+  font-family: 'Montserrat';
+  background-color: #fff;
+  position: relative;
+}
+
+.features-text {
+  font-size: 1.5rem;
+}
+
+.fas {
+  color:#ef8172;
+  padding-bottom: 20px;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+.p-features {
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*Pricing Section*/
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-columns {
+  font-size: 1.5rem;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 990px) {
+    #title {
+      text-align: center;
+    }
+
+    .img-iphone {
+      width: 50%;
+      transform: rotate(0);
+      position: static;
+    }
+
+}
+
+#cta {
+  height: 350px;
+  background-color: #ff4c68;
+}
+
+.cta-h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 2.5rem;
+  width: 70%;
+  margin: auto;
+  color: #fff;
+}
+
+.btn-cta {
+  margin: 40px 10px;
+}
+
+#footer {
+  height: 180px;
+  background-color: #fff;
+}
+
+.iconka {
+  padding: 10px;
+  padding-bottom: 20px;
+  color: black;
+}
+
+.p-element {
+  color: #8f8f8f;
+}
